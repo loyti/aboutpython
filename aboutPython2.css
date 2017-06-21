@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(darkslategray, darkblue); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(darkslategray, darkblue); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(darkslategray, darkblue); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(darkslategray, darkblue); /* Standard syntax */
+    padding: 20px 20px 20px 20px;
+}
+.header{
+    display: block;
+}
+.topHead{
+    display: inline-block;
+}
+#logo{
+    display: inline-block;
+}
+.topNav{
+    display: inline-block;
+    color: #fff;
+}
+.topNav a{
+    color: yellow;
+    padding: 5px 5px 5px 5px;
+}
+.topNav a:hover{
+    color: green;
+}
+.formWrapper{
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #36454F;
+    box-shadow: 10px 10px 5px #000;
+}
+input[id=search]{
+    text-align: center;
+    color: #000;
+    border: 2px solid gray;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+input[type=submit]{
+    background-color: darkblue;
+    color: #fff;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+.navBar{
+    display: inline-block;
+}
+.navMenu{
+    box-shadow: 10px 10px 5px #000;
+}
+.navMenu, .navMenu>li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.navMenu>li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.navMenu>li a:hover{
+    color: green;
+}
+.lowHead{
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+.aboutHead{
+    display: inline-block;
+    color: #fff;
+}
+.aboutHead a{
+    color: #fff;
+}
+.aboutHead ul{
+    display: inline-block;
+    text-align: center;
+    color: yellow;
+}
+.aboutHead li{
+    padding: 10px 20px 10px 0px;
+    list-style-type: none;
+}
+.aboutHead a:hover{
+    color: green;
+}
+.aboutP{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    max-width: 600px;
+}
+.aboutP h3{
+    color: yellow;
+    padding: 10px 10px 10px 10px;
+}
+#mainBody{
+    display: inline-block;
+    background-color: #fff;
+    padding-top: 10px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+.start{
+    display: inline-block;
+    background-color: #fff;
+    border-top: 3px solid cyan;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    max-width: 40%;
+    vertical-align: top;
+}
+.start>h2, .start>p, .startUl{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.start a{
+    text-decoration: none;
+}
+.applications{
+    display: inline-block;
+    background-color: #fff;
+    border-top: 3px solid cyan;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    max-width: 40%;
+    vertical-align: top;
+}
+.applications>h2, .applications>p, .applicationsUl{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.applications>li{
+    text-decoration: none;
+}
+.applications a{
+    text-decoration: none;
+}
+#footer{
+    display: inline;
+    text-align: center;
+    padding-top: 25px;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer li, #footer li a{
+    display: inline-block;
+    text-decoration: none;
+    color: lightblue;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+#footer p{
+    display: block;
+    text-align: center;
+    color: lightblue;
+    padding: 0px 10px 10px 10px;
+}
