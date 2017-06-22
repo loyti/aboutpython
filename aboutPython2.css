@@ -1,13 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #wrapper{
-    background: grey; /* For browsers that do not support gradients */
-    background: -webkit-radial-gradient(darkslategray, darkblue); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(darkslategray, darkblue); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(darkslategray, darkblue); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(darkslategray, darkblue); /* Standard syntax */
+    background: #2f5073;
     padding: 20px 20px 20px 20px;
 }
 .header{
@@ -22,6 +19,8 @@
 .topNav{
     display: inline-block;
     color: #fff;
+    vertical-align: top;
+    margin-left: 175px;
 }
 .topNav a{
     color: yellow;
@@ -34,7 +33,7 @@
     margin: 10px 20px 10px 20px;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
-    background-color: #36454F;
+    background-color: #444444;
     box-shadow: 10px 10px 5px #000;
 }
 input[id=search]{
@@ -45,7 +44,7 @@ input[id=search]{
     padding: 5px 5px 5px 5px;
 }
 input[type=submit]{
-    background-color: darkblue;
+    background-color: #325275;
     color: #fff;
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
@@ -62,7 +61,7 @@ input[type=submit]{
     list-style-type: none;
     margin: 10px 20px 10px 20px;
     padding: 5px 20px 5px 20px;
-    background-color: blue;
+    background-color: #8095aa;
     border-radius: 5px;
 }
 .navMenu>li a{
@@ -102,8 +101,11 @@ input[type=submit]{
     color: #fff;
     padding: 10px 10px 10px 10px;
     max-width: 600px;
+    margin-left: 100px;
 }
-.aboutP h3{
+.highlight{
+    font-size: 20px;
+    font-weight: bolder;
     color: yellow;
     padding: 10px 10px 10px 10px;
 }
@@ -113,19 +115,21 @@ input[type=submit]{
     padding-top: 10px;
     margin: 10px 0px 10px 0px;
     text-align: center;
+    max-width: 1080px;
 }
 .start{
     display: inline-block;
     background-color: #fff;
-    border-top: 3px solid cyan;
+    border-top: 3px solid #345980;
     margin: 10px 10px 10px 10px;
     text-align: center;
-    max-width: 40%;
+    max-width: 45%;
     vertical-align: top;
 }
 .start>h2, .start>p, .startUl{
     padding: 10px 10px 10px 10px;
     text-align: center;
+    list-style-type: square;
 }
 .start a{
     text-decoration: none;
@@ -133,15 +137,16 @@ input[type=submit]{
 .applications{
     display: inline-block;
     background-color: #fff;
-    border-top: 3px solid cyan;
+    border-top: 3px solid #345980;
     margin: 10px 10px 10px 10px;
     text-align: center;
-    max-width: 40%;
+    max-width: 45%;
     vertical-align: top;
 }
 .applications>h2, .applications>p, .applicationsUl{
     padding: 10px 10px 10px 10px;
     text-align: center;
+    list-style-type: square;
 }
 .applications>li{
     text-decoration: none;
@@ -150,9 +155,15 @@ input[type=submit]{
     text-decoration: none;
 }
 #footer{
+    background: #345980; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#345980, #bec8d3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#345980, #bec8d3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#345980, #bec8d3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#345980, #bec8d3); /* Standard syntax */
     display: inline;
     text-align: center;
     padding-top: 25px;
+    max-width: 1080px;
 }
 #footer ul{
     list-style-type: none;
