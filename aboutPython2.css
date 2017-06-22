@@ -111,7 +111,6 @@ input[type=submit]{
 }
 #mainBody{
     display: inline-block;
-    background-color: #fff;
     padding-top: 10px;
     margin: 10px 0px 10px 0px;
     text-align: center;
@@ -154,30 +153,32 @@ input[type=submit]{
 .applications a{
     text-decoration: none;
 }
-#footer{
-    background: #345980; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#345980, #bec8d3); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#345980, #bec8d3); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#345980, #bec8d3); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#345980, #bec8d3); /* Standard syntax */
-    display: inline;
-    text-align: center;
-    padding-top: 25px;
-    max-width: 1080px;
-}
-#footer ul{
-    list-style-type: none;
-}
-#footer li, #footer li a{
+.footer{
     display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    width: 100%;
+    background: #345980; /* For browsers that do not support gradients */
+    background: linear-gradient(#345980, #bec8d3); /* Standard syntax */
+    padding: 20px;
+}
+.footer>ul{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+.footerUl>li, .footerUl>li a{
+    display: inline;
+    list-style-type: none;
     text-decoration: none;
     color: lightblue;
     padding: 0px 10px 10px 10px;
     text-align: center;
 }
-#footer p{
+.footer p{
     display: block;
     text-align: center;
     color: lightblue;
-    padding: 0px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
 }
